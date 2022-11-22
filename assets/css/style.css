@@ -1,7 +1,7 @@
 body {
     background-color:black;
     font-size: 24px;
-    color:azure
+    color:azure;
 }
 
 h1 {
@@ -36,6 +36,8 @@ nav a {
     margin-left: 16px;
     color: azure;
     text-decoration: none;
+    font-size: 24px;
+    line-height: 150%;
 }
 
 nav a:hover {
@@ -87,6 +89,7 @@ footer {
     color: azure;
     display: flex;
     justify-content: flex-end;
+    font-size: 24px;
 }
 
 footer a {
@@ -98,4 +101,33 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: azure;
+}
+
+@media screen and (max-width:768px){
+    body,p {
+        font-size: 16px;
+        line-height:150%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    nav a:first-of-type {
+        margin-left: 0;
+    }
+
+    .about-detail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #work {
+        flex-direction: column;
+   }
+
+   #work article {
+    width: 100%;
+   }
 }
