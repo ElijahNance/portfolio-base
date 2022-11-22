@@ -5,5 +5,25 @@ body {
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: gray;
+}
+
+.container > header {
+    padding: 20px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a {
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    font-size: 32px;
+    line-height: 150%;
 }
