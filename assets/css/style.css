@@ -1,7 +1,15 @@
 body {
     background-color: whitesmoke;
+    font-size: 24px;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -28,6 +36,15 @@ section {
     line-height: 150%;
 }
 
+.about-detail{
+    display: flex;
+    align-items: flex-start;
+}
+.about-detail img{
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
 #project {
     display: flex;
     flex-wrap: wrap;
@@ -44,4 +61,18 @@ article img {
 
 .featured {
     width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
 }
