@@ -1,6 +1,6 @@
 # portfolio-base
 
-[Link to my project](https://elijahnance.github.io/portfolio-base/)
+[Link to my project: https://elijahnance.github.io/portfolio-base/](https://elijahnance.github.io/portfolio-base/)
 
 ## Table of Contents
 - [Description](#description)
